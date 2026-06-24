@@ -3,7 +3,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logoImg from "@/assets/images/stones-logo.png";
+import logoImg from "@/assets/images/stones-logo.jpg";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
